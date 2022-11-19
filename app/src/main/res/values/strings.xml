@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">M3_hw_3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="heading_one">Vaccine Tyres Available</string>
+    <string name="heading_two">Daily Vaccine Schedule</string>
+    <string name="heading_three">Get a Vaccine Certificate</string>
+
+    <string name="desc_one">There are types of vaccines available to accelerate herd immunity, so that this pandemic will quickly disappear</string>
+    <string name="desc_two">Vaccine doses are available every weekday, and make sure you miss getting the fist dose</string>
+    <string name="desc_three">With a vaccine certificate you can travel with your family safely and keep the health protocols</string>
+</resources>
