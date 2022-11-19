@@ -8,11 +8,11 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button next;
-    Button nex;
-    Button ne;
-    Button ski;
-    Button sk;
+   // Button next;
+    //Button nex;
+    //Button ne;
+    //Button ski;
+    //Button sk;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -20,7 +20,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ski = findViewById(R.id.ski);
+        getSupportFragmentManager().beginTransaction().add(R.id.container, new Fragment1()).commit();
+
+      /*  ski = findViewById(R.id.ski);
         sk = findViewById(R.id.sk);
 
         next = findViewById(R.id.nex);
@@ -61,5 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 sk.setVisibility(android.view.View.GONE);
             }
         });
+
+       */
     }
 }
